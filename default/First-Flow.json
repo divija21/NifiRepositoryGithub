@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758611228932,
+    "description" : "Generate Flow File to Log Attribute",
+    "identifier" : "First-Flow",
+    "lastModifiedTimestamp" : 1758611228932,
+    "name" : "First Flow",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
