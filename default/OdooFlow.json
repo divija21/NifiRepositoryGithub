@@ -349,6 +349,36 @@
       "destination" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
+        "id" : "3d7dc0d5-0199-1000-b425-b957b36880aa",
+        "name" : "ReplaceText",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "a03f899d-5ef2-3e01-b244-faede66d824d",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "merged" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "3d7dc0d8-0199-1000-663e-e4efd8a72ae5",
+        "name" : "MergeContent",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 46
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
         "id" : "3d7dc0e1-0199-1000-dd57-05a2e60b6586",
         "name" : "Funnel",
         "type" : "FUNNEL"
@@ -401,36 +431,6 @@
         "type" : "PROCESSOR"
       },
       "zIndex" : 43
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "3d7dc0d5-0199-1000-b425-b957b36880aa",
-        "name" : "ReplaceText",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "3d7dc0ef-0199-1000-5a49-402c21f7473b",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "merged" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "3d7dc0d8-0199-1000-663e-e4efd8a72ae5",
-        "name" : "MergeContent",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 36
     }, {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
@@ -1014,8 +1014,8 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "3d7dc0e0-0199-1000-f1c0-8b053794a1a4",
       "position" : {
-        "x" : 2408.0,
-        "y" : 88.0
+        "x" : 2888.0,
+        "y" : -56.0
       }
     } ],
     "identifier" : "flow-contents-group",
@@ -2027,8 +2027,8 @@
       "name" : "GetFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 136.0,
-        "y" : -552.0
+        "x" : -64.0,
+        "y" : -544.0
       },
       "properties" : {
         "Keep Source File" : "true",
@@ -2283,8 +2283,8 @@
       "name" : "ConvertRecord",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -544.0,
-        "y" : 8.0
+        "x" : -672.0,
+        "y" : -8.0
       },
       "properties" : {
         "Include Zero Record FlowFiles" : "true",
