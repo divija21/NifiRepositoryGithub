@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758710190013,
+    "description" : "Checking the Minio Sensitive parameters through vault",
+    "identifier" : "MinioFlow",
+    "lastModifiedTimestamp" : 1758710190013,
+    "name" : "MinioFlow",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
