@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758690914245,
+    "description" : "reading the excel data ",
+    "identifier" : "OdooFlow",
+    "lastModifiedTimestamp" : 1758690914245,
+    "name" : "OdooFlow",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
