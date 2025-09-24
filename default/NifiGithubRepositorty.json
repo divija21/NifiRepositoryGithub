@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1758690445936,
+    "description" : "Custom Processor",
+    "identifier" : "NifiGithubRepositorty",
+    "lastModifiedTimestamp" : 1758690445936,
+    "name" : "NifiGithubRepositorty",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
